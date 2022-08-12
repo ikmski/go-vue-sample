@@ -1,0 +1,12 @@
+bin/
+tmp/
+
+.env
+
+*.cert
+*.key
+
+frontend/dist/*
+!frontend/dist/gitkeep
+
+frontend/node_modules/
