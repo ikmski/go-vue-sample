@@ -28,6 +28,8 @@ fetch()
 </script>
 
 <template>
-    <h1 v-if="data.message">Message: {{ data.message.message }}</h1>
+    <h1 v-if="data.message" class="text-3xl font-bold underline">
+        Message: {{ data.message.message }}
+    </h1>
 </template>
 
